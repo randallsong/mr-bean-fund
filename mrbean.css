@@ -1,0 +1,72 @@
+/*go fund me image*/
+#navbar{
+	width: 100%;
+	height: 90px;
+	background-color: blue;
+	position: fixed;
+}
+
+.navbarimage{
+	width: 140px;
+	height: 70px;
+}
+
+.floatleft{
+	float: left;
+}
+
+.floatright{
+	float: right;
+}
+
+.navbarli{
+	list-style: none;
+}
+
+/*FONTS:
+
+Headers: Lato, Arial, sans-serif;
+Body: Arial, sans-serif;
+
+NAVBAR:
+
+font size: 17px
+line height: 17px
+letter psacing normal
+text align: left
+color: #5d8000
+HOVER: 384d00
+bacground: #ffffff
+
+.position-relative
+content: 1200x53
+padding: RT 16 L 16
+font size: 17px
+line height: 25px
+letter spacing normal
+text align: start
+color: #333333
+background: #ffffff
+
+START A FUNDRAISER:
+
+
+ACTION BUTTONS:
+content:384x32;
+border: top 9, rt 16;
+
+
+
+facebook button:
+content: 120x32
+padding 6px;
+border: left6
+
+
+@media screen and (min-width: 32.5em){
+	body{
+		font-size: 1.0625rem;
+	}
+}
+*/
+
