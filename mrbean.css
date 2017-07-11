@@ -1,3 +1,16 @@
+.header {
+	z-index:1;
+
+}
+.vid {
+	position:absolute;
+	left:12%;
+}
+.container-title {
+	text-align:left;
+	margin-left:15px;
+}
+
 .fa {
     padding: 10px;
     font-size: 30px;
@@ -6,7 +19,7 @@
     text-align: center;
     text-decoration: none;
     border-radius:5px;
-
+    margin:10px;
 }
 .fa:hover{
 	opacity:0.7;
@@ -30,19 +43,35 @@
 	border-radius:5px;
 	background:white;
 	color:green;
+	/*z-index:1;*/
 
 }
 .button:hover {
 	opacity:0.7;
 }
 .container{
-	display:block;
-	background-color:pink;
-	width:600px;
-	height:1400px;
-	position:relative;
+/*	display:block;*/
+	background-color:white;
+	width:42%;
+	height:100%;
 	border-style:solid;
 	border-color:grey;
 	border-width:5px;
-	bottom:700px;
+	position: absolute;
+	left:12%;
+	top:415px;
+/*	bottom:700px;*/
+	
 }
+
+
+.content {
+	margin:10px;/* margin just for content within container*/
+	width: 50%;
+	position: relative;
+}
+.bottom-share{
+	float:right;
+	position:relative;
+}
+
