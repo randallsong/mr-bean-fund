@@ -2,21 +2,21 @@
 
 #donate-box{
 	display: block;
-	position: fixed;
+	position: absolute;
 	width: 500px;
 	height: 225px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: lightgray;
 	border-radius: 8px;
-	left: 60%;
-	top: 200px;
+	left: 55%;
+	top: 100px;
+	z-index: 2;
 }
 
 #donated{
 	position: relative;
 	display: inline;
-	font-family: arial black;
 	left: 10px;
 	top: 5%;
 }
@@ -24,7 +24,6 @@
 #total{
 	position: relative;
 	display: inline;
-	font-family: arial black;
 	left: 10px;
 }
 
@@ -47,7 +46,6 @@
 	width: 400px;
 	height: 50px;
 	color: white;
-	font-family: arial black;
 	font-size: 200%;
 	background-color: orange;
 	display: block;
@@ -62,7 +60,6 @@
 	width: 400px;
 	height: 40px;
 	color: white;
-	font-family: arial black;
 	font-size: 180%;
 	background-color: orange;
 	display: block;
@@ -74,4 +71,25 @@
 	top: 70px;
 }
 
+#individual-donations{
+	display: block;
+	position: absolute;
+	width: 500px;
+	height: 2000px;
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgray;
+	left: 55%;
+	z-index: 1;
+}
+
+#underline{
+	display: block;
+	height: 1px;
+	width: 500px;
+	border-bottom-style: dotted;
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+}
 /*--------------------------------------------*/
