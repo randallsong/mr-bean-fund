@@ -1,10 +1,9 @@
 
-.header {
-	
-}
+
 .vid {
 	position:absolute;
 	left:12%;
+	top: 100px;
 }
 .container-title {
 	text-align:left;
@@ -67,7 +66,7 @@
 	border-width:1px;
 	position: absolute;
 	left:12%;
-	top:415px;
+	top:500px;
 /*	bottom:700px;*/
 	
 }
@@ -259,6 +258,9 @@ html{
 	height: 90px;
 	background-color: blue;
 	position: fixed;
+	z-index: 10;
+	right: 0px;
+	top: 0px;
 }
 
 #footerbar{
@@ -268,6 +270,8 @@ html{
 	bottom: 0;
 	margin-bottom: 0px;
 	position: fixed;
+	z-index: 10;
+	right: 0px;
 }
 
 .navbarimage{
