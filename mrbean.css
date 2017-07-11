@@ -1,3 +1,4 @@
+
 .header {
 	z-index:1;
 
@@ -74,4 +75,195 @@
 	float:right;
 	position:relative;
 }
+
+/*-------------------Donate Box----------------->*/
+
+#donate-box{
+	display: block;
+	position: absolute;
+	width: 500px;
+	height: 225px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgray;
+	border-radius: 8px;
+	left: 55%;
+	top: 100px;
+	z-index: 2;
+}
+
+#donated{
+	position: relative;
+	display: inline;
+	left: 10px;
+	top: 5%;
+}
+
+#total{
+	position: relative;
+	display: inline;
+	left: 10px;
+}
+
+#donation-bar{
+	position: absolute;
+	width: 400px;
+	height: 10px;
+	background-color: green;
+	left: 20px;
+
+}
+
+#donations{
+	position: absolute;
+	display: block;
+	left: 20px;
+}
+
+#donate-button{
+	width: 400px;
+	height: 50px;
+	color: white;
+	font-size: 200%;
+	background-color: orange;
+	display: block;
+	border-style: none;
+	border-radius: 8px;
+	margin: 0 auto;
+	position: relative;
+	top: 60px;
+}
+
+#share-fb-button{
+	width: 400px;
+	height: 40px;
+	color: white;
+	font-size: 180%;
+	background-color: orange;
+	display: block;
+	border-style: none;
+	border-radius: 8px;
+	margin: 0 auto;
+	position: relative;
+	text-decoration: none;
+	top: 70px;
+}
+
+#individual-donations{
+	display: block;
+	position: absolute;
+	width: 500px;
+	height: 2000px;
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgray;
+	left: 55%;
+	z-index: 1;
+}
+
+#underline{
+	display: block;
+	height: 1px;
+	width: 500px;
+	border-bottom-style: dotted;
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+}
+/*--------------------------------------------*/
+
+
+/*go fund me image*/
+html{
+	font-family: Lato, Arial, sans-serif;
+}
+
+#navbar{
+	width: 100%;
+	height: 90px;
+	background-color: blue;
+	position: fixed;
+}
+
+#footerbar{
+	width: 100%;
+	height: 90px;
+	background-color: red;
+	bottom: 0;
+	margin-bottom: 0px;
+	position: fixed;
+}
+
+.navbarimage{
+	width: 140px;
+	height: 70px;
+}
+
+.footerbarimage{
+	width: 25px;
+	height: 24px;
+}
+
+.floatleft{
+	float: left;
+}
+
+.floatright{
+	float: right;
+}
+
+.navbarli{
+	list-style: none;
+}
+
+.footersocialmedia{
+
+}
+
+/*FONTS:
+
+Headers: Lato, Arial, sans-serif;
+Body: Arial, sans-serif;
+
+NAVBAR:
+
+font size: 17px
+line height: 17px
+letter psacing normal
+text align: left
+color: #5d8000
+HOVER: 384d00
+bacground: #ffffff
+
+.position-relative
+content: 1200x53
+padding: RT 16 L 16
+font size: 17px
+line height: 25px
+letter spacing normal
+text align: start
+color: #333333
+background: #ffffff
+
+START A FUNDRAISER:
+
+
+ACTION BUTTONS:
+content:384x32;
+border: top 9, rt 16;
+
+
+
+facebook button:
+content: 120x32
+padding 6px;
+border: left6
+
+
+@media screen and (min-width: 32.5em){
+	body{
+		font-size: 1.0625rem;
+	}
+}
+*/
 
