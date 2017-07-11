@@ -1,19 +1,8 @@
 
-.header {
-	margin-bottom: 50px;
-	position: fixed;
-
-}
 .vid {
-	position: relative;
-	margin-top: 100px;
-	width: 49%;
-
-}
-
-iframe{
-	width: 100%;
-	height: 400px;
+	position:absolute;
+	left:12%;
+	top: 100px;
 }
 .container-title {
 	text-align:left;
@@ -23,7 +12,7 @@ iframe{
 
 .fa {
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
     width: 180px;
     height:20px;
     text-align: center;
@@ -33,6 +22,14 @@ iframe{
 }
 .fa:hover{
 	opacity:0.7;
+}
+.fa-check {
+	background: linear-gradient(to bottom,#f7b231 0,#de9440 100%);
+	border-top-color: #f7b231;
+    border-bottom: 3px solid #c68f42;
+    font-weight: 600;
+    color:white;
+
 }
 .fa-facebook {
 	background:#3b5998;
@@ -67,7 +64,10 @@ iframe{
 	border-style:solid;
 	border-color:grey;
 	border-width:1px;
-	position: relative;*/
+	position: absolute;
+	left:12%;
+	top:500px;
+/*	bottom:700px;*/
 	
 }
 
@@ -95,6 +95,9 @@ iframe{
 	border-style: solid;
 	border-color: lightgray;
 	border-radius: 8px;
+	left: 55%;
+	top: 130px;
+	z-index: 2;
 }
 
 #donated{
@@ -155,15 +158,20 @@ iframe{
 }
 
 #individual-donations{
-	position: relative;
-	margin-top: 100px;
-	width: 49%;
-	height: 600px;
-	background-color: red;
+	display: block;
+	position: absolute;
+	width: 500px;
+	height: 1000px;
+	background-color: white;
 	border-width: 1px;
-	border-style: solid;
+	border-style: none;
 	border-color: lightgray;
 	float: right;
+}
+
+#creator{
+	position: absolute;
+	top: 350px;
 }
 
 #underline{
@@ -175,10 +183,69 @@ iframe{
 	border-bottom-width: 2px;
 }
 
-/*.donatecontainer{
-	width: 49%;
-	float: left;
-}*/
+#bean-icon{
+	display: inline-block;
+	position: absolute;
+	width: 125px; 
+	height: 83;
+	border-radius: 40px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	top: 25px;
+}
+
+#creator-name{
+	display: block;
+	width: 300px;
+	position: absolute;
+	left: 150px;
+	top: 30px;
+}
+
+#underline2{
+	display: block;
+	position: absolute;
+	height: 1px;
+	width: 500px;
+	border-bottom-style: dotted;
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+	top: 500px;
+}
+
+#donator1{
+	position: absolute;
+	top: 500px;
+}
+
+#Robbie{
+	display: inline-block;
+	position: absolute;
+	width: 125px; 
+	height: 83;
+	border-radius: 40px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	top: 25px;
+}
+#donator2{
+	position: absolute;
+	top: 700px;
+}
+
+#spongebob{
+	display: inline-block;
+	position: absolute;
+	width: 125px; 
+	height: 83;
+	border-radius: 40px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	top: 25px;
+}
 /*--------------------------------------------*/
 
 
@@ -192,10 +259,9 @@ html{
 	height: 90px;
 	background-color: blue;
 	position: fixed;
-	overflow: hidden;
-	top: 0;
 	z-index: 10;
-
+	right: 0px;
+	top: 0px;
 }
 
 #footerbar{
@@ -204,12 +270,9 @@ html{
 	background-color: red;
 	bottom: 0;
 	margin-bottom: 0px;
-	position: absolute;
-}
-
-.footerterms{
-	width: 100px;
-	background-color: green;
+	position: fixed;
+	z-index: 10;
+	right: 0px;
 }
 
 .navbarimage{
