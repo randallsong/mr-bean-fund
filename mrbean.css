@@ -108,7 +108,7 @@ h2 {
 	border-color: lightgray;
 	border-radius: 8px;
 	left: 55%;
-	top: 100px;
+	top: 130px;
 	z-index: 2;
 }
 
@@ -173,13 +173,18 @@ h2 {
 	display: block;
 	position: absolute;
 	width: 500px;
-	height: 2000px;
+	height: 1000px;
 	background-color: white;
 	border-width: 1px;
-	border-style: solid;
+	border-style: none;
 	border-color: lightgray;
 	left: 55%;
 	z-index: 1;
+}
+
+#creator{
+	position: absolute;
+	top: 350px;
 }
 
 #underline{
@@ -189,6 +194,70 @@ h2 {
 	border-bottom-style: dotted;
 	border-bottom-color: black;
 	border-bottom-width: 2px;
+}
+
+#bean-icon{
+	display: inline-block;
+	position: absolute;
+	width: 125px; 
+	height: 83;
+	border-radius: 40px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	top: 25px;
+}
+
+#creator-name{
+	display: block;
+	width: 300px;
+	position: absolute;
+	left: 150px;
+	top: 30px;
+}
+
+#underline2{
+	display: block;
+	position: absolute;
+	height: 1px;
+	width: 500px;
+	border-bottom-style: dotted;
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+	top: 500px;
+}
+
+#donator1{
+	position: absolute;
+	top: 500px;
+}
+
+#Robbie{
+	display: inline-block;
+	position: absolute;
+	width: 125px; 
+	height: 83;
+	border-radius: 40px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	top: 25px;
+}
+#donator2{
+	position: absolute;
+	top: 700px;
+}
+
+#spongebob{
+	display: inline-block;
+	position: absolute;
+	width: 125px; 
+	height: 83;
+	border-radius: 40px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	top: 25px;
 }
 /*--------------------------------------------*/
 
