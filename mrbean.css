@@ -1,4 +1,81 @@
 
+.header {
+	z-index:1;
+
+}
+.vid {
+	position:absolute;
+	left:12%;
+}
+.container-title {
+	text-align:left;
+	margin-left:15px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 180px;
+    height:20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:5px;
+    margin:10px;
+}
+.fa:hover{
+	opacity:0.7;
+}
+.fa-facebook {
+	background:#3b5998;
+	color:white;
+	
+}
+.fa-twitter {
+	background:#55ACEE;
+	color:white;
+}
+.button {
+	padding:10px;
+	font-size:30px;
+	width:180px;
+	height:20px;
+	text-align:center;
+	text-decoration:none;
+	border-radius:5px;
+	background:white;
+	color:green;
+	/*z-index:1;*/
+
+}
+.button:hover {
+	opacity:0.7;
+}
+.container{
+/*	display:block;*/
+	background-color:white;
+	width:42%;
+	height:100%;
+	border-style:solid;
+	border-color:grey;
+	border-width:1px;
+	position: absolute;
+	left:12%;
+	top:415px;
+/*	bottom:700px;*/
+	
+}
+
+
+.content {
+	margin:10px;/* margin just for content within container*/
+	width: 50%;
+	position: relative;
+}
+.bottom-share{
+	float:right;
+	position:relative;
+}
+
 /*-------------------Donate Box----------------->*/
 
 #donate-box{
