@@ -1,4 +1,22 @@
 
+
+.header {
+	
+}
+#thanks {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRGmw5MAxHXGF8gjGQD_o-rGRttfFQd5RjBWwD7WPup6q4MAVD");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h2 {
+	font-size:30px;
+	color:white;
+	text-align:left;
+	margin-top:200px;
+	margin-left:30px;
+	opacity:0.7;
+}
+
 .vid {
 	position:absolute;
 	left:12%;
@@ -66,11 +84,10 @@
 	border-width:1px;
 	position: absolute;
 	left:12%;
-<<<<<<< HEAD
+
 	top:515px;
-=======
-	top:500px;
->>>>>>> 076db631828129daa572430ff096d2cdd91c4105
+	
+
 /*	bottom:700px;*/
 	
 }
@@ -352,4 +369,13 @@ border: left6
 	}
 }
 */
+@media screen and (max-width: 960px) { 
+  body {
+    left: 50%;
+      
+    background-color:lightblue;
+    background-size:cover;
+    background-repeat: no-repeat;
+      }
+   }
 
