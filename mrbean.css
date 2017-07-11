@@ -1,0 +1,74 @@
+#donate-box{
+	display: block;
+	position: fixed;
+	width: 500px;
+	height: 225px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgray;
+	border-radius: 8px;
+	left: 60%;
+	top: 250px;
+}
+
+#donated{
+	position: relative;
+	display: inline;
+	font-family: arial black;
+	left: 10px;
+	top: 5%;
+}
+
+#total{
+	position: relative;
+	display: inline;
+	font-family: arial black;
+	left: 10px;
+}
+
+#donation-bar{
+	position: absolute;
+	width: 400px;
+	
+}
+
+}
+
+#donations{
+	position: absolute;
+	font-family: arial;
+	left: 10px;
+	top: 15%;
+
+}
+
+#donate-button{
+	width: 400px;
+	height: 50px;
+	color: white;
+	font-family: arial black;
+	font-size: 200%;
+	background-color: orange;
+	display: block;
+	border-style: none;
+	border-radius: 8px;
+	margin: 0 auto;
+	position: relative;
+	top: 70px;
+}
+
+#share-fb-button{
+	width: 400px;
+	height: 40px;
+	color: white;
+	font-family: arial black;
+	font-size: 180%;
+	background-color: orange;
+	display: block;
+	border-style: none;
+	border-radius: 8px;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+	text-decoration: none;
+}
