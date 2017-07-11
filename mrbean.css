@@ -1,3 +1,5 @@
+/*-------------------Donate Box----------------->*/
+
 #donate-box{
 	display: block;
 	position: fixed;
@@ -8,7 +10,7 @@
 	border-color: lightgray;
 	border-radius: 8px;
 	left: 60%;
-	top: 250px;
+	top: 200px;
 }
 
 #donated{
@@ -29,17 +31,16 @@
 #donation-bar{
 	position: absolute;
 	width: 400px;
-	
-}
+	height: 10px;
+	background-color: green;
+	left: 20px;
 
 }
 
 #donations{
 	position: absolute;
-	font-family: arial;
-	left: 10px;
-	top: 15%;
-
+	display: block;
+	left: 20px;
 }
 
 #donate-button{
@@ -54,7 +55,7 @@
 	border-radius: 8px;
 	margin: 0 auto;
 	position: relative;
-	top: 70px;
+	top: 60px;
 }
 
 #share-fb-button{
@@ -69,6 +70,8 @@
 	border-radius: 8px;
 	margin: 0 auto;
 	position: relative;
-	top: 80px;
 	text-decoration: none;
+	top: 70px;
 }
+
+/*--------------------------------------------*/
